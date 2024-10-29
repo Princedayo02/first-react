@@ -1,4 +1,5 @@
 import React from "react";
+import CustomButton from "./cusomeButton";
 
 function HeroSection() {
 	return (
@@ -10,6 +11,10 @@ function HeroSection() {
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed,
 					convallis ex.
 				</p>
+				<div className="flex items-center justify-center gap-10 mt-10">
+					<CustomButton text="Contact Us" />
+					<CustomButton background="bg-black" text="More" />
+				</div>
 			</div>
 		</div>
 	);
