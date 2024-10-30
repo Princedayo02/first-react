@@ -1,6 +1,7 @@
 import React from "react";
 import CustomButton from "./cusomeButton";
-
+import Card from "./ButtonMike";
+import { CardBody, CardHeading } from "./ButtonMike";
 function HeroSection() {
 	return (
 		<div className="h-screen bg-slate-600">
@@ -11,7 +12,7 @@ function HeroSection() {
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed,
 					convallis ex.
 				</p>
-				<div className="flex items-center justify-center gap-10 mt-10">
+				<div className="flex items-center justify-center gap-10 my-10">
 					<CustomButton text="Contact Us" />
 					<CustomButton background="bg-black" text="More" />
 				</div>
